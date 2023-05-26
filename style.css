@@ -1,0 +1,249 @@
+body{
+    display:flex;
+    flex-direction: column;
+}
+
+.header{
+    display:flex;
+    height:100px;
+    align-items: center;
+    justify-content: space-between;
+    background-color:orangered;
+    padding:auto 20px;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    margin-left: 20px;
+    gap:20px;
+    border-radius: 20px;
+    padding:10px;
+}
+
+h2 {
+    font-size:24px;
+    color:white;
+    font-weight:bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.small-icon{
+    height:50px;
+    width:50px;
+}
+
+ul{
+    display:flex;
+    gap: 10px;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li, p, a {
+    font-size:18px;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.caption {
+    color:orangered;
+}
+
+.section1 {
+    height: 500px;
+    width:auto;
+    flex-shrink: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    background-image: url("images/sonic-banner.png");
+}
+
+.left-side{
+    display:flex;
+    flex-direction: column;
+    width:500px;
+    background-color: mediumseagreen;
+    border-radius: 20px;
+    padding:20px;
+}
+
+h1{
+    font-size:48px;
+    font-weight:900;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+    margin-bottom:0px;
+    padding-bottom:0px;
+    padding-top:10px;
+    margin-top:0px;
+}
+
+button{
+    border-radius: 15px;
+    font-size:18px;
+    width:150px;
+    color:white;
+    border-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color:mediumseagreen;
+    border-style: double;
+    border-width: 5px;
+    padding: 5px 20px;
+}
+
+.top-pic{
+    height: 300px;
+    width:auto;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 10px;
+}
+
+.section2 {
+    background-color: white;
+    height:200px;
+    width:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#server-icon{
+    height:100px;
+    width:auto;
+    padding-left: 10px;
+}
+
+.right-side{
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding:20px;
+}
+
+
+.section3 {
+    background-color: white;
+    height:auto;
+    padding:20px;
+    width:auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{
+    color:orangered;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.cards{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+}
+
+.card{
+    display:flex;
+    flex-direction: column;
+    width:250px;
+    height:auto;
+    padding:5px;
+    align-items: center;
+}
+
+.icon{
+    height:250px;
+    width:250px;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color:mediumseagreen;
+}
+
+.section4 {
+    height: 500px;
+    width:auto;
+    flex-shrink: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/sonic-bottom.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quote{
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+    background-color: orangered;
+    padding:20px;
+    border-radius: 20px;
+}
+
+h4{
+    font-style: italic;
+    font-size: 36px;
+    color:white;
+    padding:0;
+    margin:0;
+}
+
+h5{
+    font-weight:bold;
+    font-size: 24px;
+    color:white;
+    align-self: end;
+}
+
+.white{
+    color:white;
+    align-self: baseline;
+}
+
+.section5 {
+    background-color: white;
+    height:200px;
+    width:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: mediumseagreen;
+    border-radius: 15px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto 25px auto 0;
+    height: 150px;
+}
+
+.box-left{
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding:20px;
+}
+
+.footer{
+    display:flex;
+    height:100px;
+    align-items: center;
+    justify-content:center;
+    background-color: orangered;
+}
+
+.inverted{
+    margin-right: 20px;
+}
