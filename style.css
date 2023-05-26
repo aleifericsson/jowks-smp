@@ -30,7 +30,8 @@ h2 {
 
 .small-icon{
     height:50px;
-    width:50px;
+    width:auto;
+    padding-left:10px;
 }
 
 ul{
@@ -61,7 +62,7 @@ li, p, a {
     justify-content: center;
     align-items: center;
     gap:20px;
-    background-image: url("images/sonic-banner.png");
+    background-image: url("images/jowks-banner-resized.png");
 }
 
 .left-side{
@@ -102,8 +103,9 @@ button{
     height: 300px;
     width:auto;
     border-radius: 20px;
-    border-color: white;
+    border-color: mediumseagreen;
     border-width: 10px;
+    border-style: solid;
 }
 
 .section2 {
@@ -130,7 +132,7 @@ button{
 
 
 .section3 {
-    background-color: white;
+    background-color: #DDCCBB;
     height:auto;
     padding:20px;
     width:auto;
@@ -176,9 +178,6 @@ h3{
     display:flex;
     justify-content: center;
     align-items: center;
-    background-image: url("images/sonic-bottom.png");
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .quote{
